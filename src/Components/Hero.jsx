@@ -3,7 +3,7 @@ import React from "react";
 const Hero = () => {
   return (
     <div className="relative">
-    <div className="flex justify-between pt-31 pb-9 px-20 text-white">
+    <div className="flex justify-between pt-51 pb-9 px-20 text-white">
       <div>
         <div>
           <h3 className="font-mono text-2xl"> SO, YOU WANT TO TRAVEL TO </h3>
