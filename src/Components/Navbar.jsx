@@ -1,9 +1,10 @@
 import React from "react";
 import logo from "../assets/logo.svg";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div>
+    <div className="absolute top-0 left-0 w-full z-50">
       <div className=" flex  justify-between pt-6">
         <div>
           <img
@@ -17,10 +18,10 @@ const Navbar = () => {
 
         <div className="bg-white/5 backdrop-blur-md px-10 py-6">
           <nav className="text-white flex gap-9 tracking-widest text-sm">
-            <a href=""> <span className="font-extrabold">00</span> HOME</a>
-            <a href=""> <span className="font-extrabold ">01</span> DESTINATION</a>
-            <a href=""> <span className="font-extrabold">02</span> CREW </a>
-            <a href=""><span className="font-extrabold">03</span> TECHNOLOGY</a>
+            <Link to='/'><span className="font-extrabold">00</span> HOME</Link> 
+            <Link to="/destination"> <span className="font-extrabold ">01</span> DESTINATION </Link>
+            <Link to="/crew"> <span className="font-extrabold">02</span> CREW </Link>
+            <Link to="/technology"><span className="font-extrabold">03</span> TECHNOLOGY</Link>
           </nav>
         </div>
       </div>

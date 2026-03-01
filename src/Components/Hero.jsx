@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div>
+    <div className="relative">
     <div className="flex justify-between pt-31 pb-9 px-20 text-white">
       <div>
         <div>
