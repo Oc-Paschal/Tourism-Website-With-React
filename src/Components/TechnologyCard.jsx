@@ -12,11 +12,11 @@ const TechnologyCard = () => {
       <section className="px-18 pt-18 flex gap-30">
         <div className="flex gap-10">
           <div className="flex flex-col gap-3">
-            <div className="h-15 w-15 bg-white rounded-full flex text-center items-center justify-center text-black">
+            <div className="h-15 w-15 bg-white rounded-full flex text-center items-center justify-center text-black cursor-pointer">
               1
             </div>
-            <div  className="h-15 w-15  rounded-full flex text-center items-center justify-center border border-gray-100 ">2</div>
-            <div  className="h-15 w-15  rounded-full flex text-center items-center justify-center border border-gray-100 ">3</div>
+            <div  className="h-15 w-15  rounded-full flex text-center items-center justify-center border border-gray-100 cursor-pointer ">2</div>
+            <div  className="h-15 w-15  rounded-full flex text-center items-center justify-center border border-gray-100 cursor-pointer ">3</div>
           </div>
           <div>
             <h3 className="text-gray-400">THE TERMINOLOGY...</h3>
