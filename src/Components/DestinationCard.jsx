@@ -5,7 +5,7 @@ const DestinationCard = () => {
     <div className="relative top-28 text-white px-25">
       <div>
         <p className='font-mono text-xl'>
-          <span className='p-4'>01</span>PICK YOUR DESTINATION
+          <span className='p-4 text-gray-400'>01</span>PICK YOUR DESTINATION
         </p>
       </div>
       <div className="flex gap-50 p-10">
