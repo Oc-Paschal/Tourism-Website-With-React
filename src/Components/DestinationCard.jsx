@@ -41,7 +41,7 @@ const DestinationCard = () => {
       </div>
       <div className="flex gap-50 p-10">
         <div>
-          <picture className="h-81 w-81">
+          <picture>
             <source media="(min-width: 1024px)" srcSet={currentImage.desktop} />
             <source media="(min-width: 768px)" srcSet={currentImage.mobile} />
             <img src={currentImage.mobile}
