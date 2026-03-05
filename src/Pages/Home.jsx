@@ -6,17 +6,11 @@ const Home = () => {
     <div 
       className="
       bg-[url('../../public/home/background-home-mobile.jpg')]
-      sm-[url('../../public/home/background-home-tablet.jpg')]
-      md-[url('../../public/home/background-home-mobile.jpg')]
+      sm:bg-[url('../../public/home/background-home-tablet.jpg')]
+      md:bg-[url('../../public/home/background-home-desktop.jpg')]
       
       bg-cover bg-center min-h-screen">
         <Hero/>
-        
-
-
-
-
-
 
 
       </div>

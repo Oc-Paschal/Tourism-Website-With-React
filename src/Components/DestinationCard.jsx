@@ -1,13 +1,13 @@
 import { useState } from "react";
 import data from "../../../starter-code/data.json";
-import moonDesktop from "../../../starter-code/assets/destination/image-moon.webp";
-import moonMobile from "../../../starter-code/assets/destination/image-moon.png";
-import marsDesktop from "../../../starter-code/assets/destination/image-mars.webp";
-import marsMobile from "../../../starter-code/assets/destination/image-mars.png";
-import europaDesktop from "../../../starter-code/assets/destination/image-europa.webp";
-import europaMobie from "../../../starter-code/assets/destination/image-europa.png";
-import titanDesktop from "../../../starter-code/assets/destination/image-titan.webp";
-import titanMobile from "../../../starter-code/assets/destination/image-titan.png";
+import moonDesktop from "../../public/destination/image-moon.webp";
+import moonMobile from "../../public/destination/image-moon.png";
+import marsDesktop from "../../public/destination/image-mars.webp";
+import marsMobile from "../../public/destination/image-mars.png";
+import europaDesktop from "../../public/destination/image-europa.webp";
+import europaMobie from "../../public/destination/image-europa.png";
+import titanDesktop from "../../public/destination/image-titan.webp";
+import titanMobile from "../../public/destination/image-titan.png";
 
 const DestinationCard = () => {
   const [selected, setSelected] = useState(0);
