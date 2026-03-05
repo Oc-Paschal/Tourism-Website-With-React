@@ -35,7 +35,8 @@ const TechnologyCard = () => {
       <section className="px-18 pt-18 flex gap-30">
         <div className="flex gap-10">
           <div className="flex flex-col gap-3">
-            <div onClick={() => setSelected(0)}   className=" h-15 w-15 bg-white rounded-full flex text-center items-center justify-center text-black cursor-pointer">
+            <div onClick={() => setSelected(0)}
+               className=" h-15 w-15 bg-white rounded-full flex text-center items-center justify-center text-black cursor-pointer">
               1
             </div>
             <div onClick={() => setSelected(1)} className="h-15 w-15  rounded-full flex text-center items-center justify-center border border-gray-100 cursor-pointer ">2</div>
