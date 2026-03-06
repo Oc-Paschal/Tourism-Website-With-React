@@ -1,5 +1,5 @@
 import React from "react";
-import EngineerImage from '../assets/image-anousheh-ansari.webp'
+import EngineerImage from '../assets/crew/image-anousheh-ansari.webp'
 
 const CrewCard = () => {
   return (

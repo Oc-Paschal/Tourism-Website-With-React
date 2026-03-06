@@ -1,11 +1,11 @@
 import {useState} from "react";
 import data from '../../../starter-code/data.json';
-import launchVehicleLandscape from '../../../starter-code/assets/technology/image-launch-vehicle-landscape.jpg';
-import launchVehiclePotrait from '../../../starter-code/assets/technology/image-launch-vehicle-portrait.jpg';
-import spaceCapsuleLandscape from '../../../starter-code/assets/technology/image-space-capsule-landscape.jpg';
-import spaceCapsulePotrait from '../../../starter-code/assets/technology/image-space-capsule-portrait.jpg';
-import spacePortLandscape from '../../../starter-code/assets/technology/image-spaceport-landscape.jpg';
-import spacePortPotrait from '../../../starter-code/assets/technology/image-spaceport-portrait.jpg';
+import launchVehicleLandscape from '../assets/technology/image-launch-vehicle-landscape.jpg';
+import launchVehiclePotrait from '../assets/technology/image-launch-vehicle-portrait.jpg';
+import spaceCapsuleLandscape from '../assets/technology/image-space-capsule-landscape.jpg';
+import spaceCapsulePotrait from '../assets/technology/image-space-capsule-portrait.jpg';
+import spacePortLandscape from '../assets/technology/image-spaceport-landscape.jpg';
+import spacePortPotrait from '../assets/technology/image-spaceport-portrait.jpg';
 
 const TechnologyCard = () => {
   const [selected,setSelected] = useState(0);

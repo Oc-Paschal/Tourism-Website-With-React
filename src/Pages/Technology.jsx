@@ -1,11 +1,14 @@
 import React from 'react'
 import TechnologyCard from '../Components/TechnologyCard'
-import backgroundImage from '../assets/background-technology-desktop.jpg'
 
 const Technology = () => {
   return (
-    <div style={{backgroundImage:`url(${backgroundImage})` }} 
-    className='bg-cover bg-center min-h-screen ' >
+    <div 
+    className="
+    bg-[url('../../src/assets/technology/background-technology-mobile.jpg')]
+    sm:bg-[url('../src/assets/technology/background-technology-tablet.jpg')]
+    md:bg-[url('../src/assets/technology/background-technology-desktop.jpg')]
+    bg-cover bg-center min-h-screen " >
       <TechnologyCard/>
 
     </div>
