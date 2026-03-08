@@ -15,19 +15,19 @@ const CrewCard = () => {
   const currentImage = crewImages[selected];
 
   return (
-    <div className="text-white px-6 md:px-20 pt-32">
-      <p className="font-mono text-lg text-center md:text-left mb-10">
+    <div className="text-white px-6 md:px-27 lg:px-20 pt-32">
+      <p className="font-mono text-lg text-center md:text-center lg:text-left mb-10">
         <span className="text-gray-400 mr-4">02</span>
         MEET YOUR CREW
       </p>
 
-      <section className="flex flex-col md:flex-row items-center gap-10">
-        <div className="flex flex-col items-center md:items-start text-center md:text-left max-w-md">
-          <h3 className="text-xl md:text-2xl text-gray-400 font-serif mb-2">
+      <section className="flex flex-col md:flex-col lg:flex-row items-center gap-12 md:gap-12 lg:gap-30">
+        <div className="flex flex-col items-center md:items-center lg:items-start text-center md:text-center lg:text-left max-w-md">
+          <h3 className="text-xl md:text-4xl lg:text-2xl text-gray-400 font-serif mb-2">
             {crew.role}
           </h3>
-          <h1 className="text-4xl md:text-6xl font-serif mb-4">{crew.name}</h1>
-          <p className="text-gray-300 leading-relaxed mb-8">{crew.bio}</p>
+          <h1 className="text-4xl md:text-6xl lg:text-6xl font-serif mb-4">{crew.name}</h1>
+          <p className="text-gray-300 leading-relaxed mb-8  ">{crew.bio}</p>
           <div className="flex gap-4 mt-4">
             {crewImages.map((_, index) => (
               <div

@@ -33,7 +33,7 @@ const TechnologyCard = () => {
 
   return (
     <div className="text-white pt-32">
-      <p className="font-mono text-lg text-center md:text-left px-6 md:px-20 mb-10">
+      <p className="font-mono text-lg text-center md:text-center lg:text-left px-6 md:px-5 lg:px-20 mb-10">
         <span className="text-gray-400 mr-4">03</span>
         SPACE LAUNCH 101
       </p>
@@ -43,7 +43,7 @@ const TechnologyCard = () => {
           <img
             src={currentImage.landscape}
             alt={technology.name}
-            className="w-full md:w-96"
+            className="w-full md:w-110 lg:w-96"
           />
         </picture>
       </div>
@@ -70,7 +70,7 @@ const TechnologyCard = () => {
             THE TERMINOLOGY…
           </h3>
 
-          <h1 className="text-4xl md:text-5xl font-serif mb-4">
+          <h1 className="text-4xl md:text-6xl lg:text-5xl font-serif mb-4">
             {technology.name}
           </h1>
 

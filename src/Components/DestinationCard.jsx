@@ -27,13 +27,13 @@ const DestinationCard = () => {
   const currentImage = destinationImages[selected];
 
   return (
-    <div className="text-white px-6 md:px-20 pt-32">
+    <div className="text-white px-6 md:px-10 lg:px-20 pt-32">
       <p className="font-mono text-lg text-center md:text-left mb-10">
         <span className="text-gray-400 mr-4">01</span>
         PICK YOUR DESTINATION
       </p>
 
-      <div className="flex flex-col md:flex-row items-center gap-10">
+      <div className="flex flex-col md:flex-col lg:flex-row items-center gap-10 md:gap-10 lg:gap-50">
         <div className="flex justify-center">
           <picture>
             <source media="(min-width:1024px)" srcSet={currentImage.desktop} />
@@ -45,7 +45,7 @@ const DestinationCard = () => {
           </picture>
         </div>
 
-        <div className="flex flex-col items-center md:items-start text-center md:text-left max-w-md">
+        <div className="flex flex-col items-center md:items-center lg:items-start text-center md:text-center lg:text-left max-w-md">
           <nav className="flex gap-6 mb-6 font-mono text-sm tracking-widest">
             {["MOON", "MARS", "EUROPA", "TITAN"].map((planet, index) => (
               <p
@@ -61,7 +61,7 @@ const DestinationCard = () => {
               </p>
             ))}
           </nav>
-          <h1 className="text-5xl md:text-7xl font-serif mb-4">
+          <h1 className="text-5xl md:text-8xl lg:text-7xl font-serif mb-4">
             {destination.name}
           </h1>
           <p className="text-gray-300 leading-relaxed mb-8">
