@@ -33,20 +33,13 @@ const TechnologyCard = () => {
 
   return (
     <div className="text-white pt-32">
-
-      {/* Title */}
       <p className="font-mono text-lg text-center md:text-left px-6 md:px-20 mb-10">
         <span className="text-gray-400 mr-4">03</span>
         SPACE LAUNCH 101
       </p>
-
-      {/* Image (Top on Mobile) */}
       <div className="w-full flex justify-center mb-10">
         <picture>
-          <source
-            media="(min-width:1024px)"
-            srcSet={currentImage.portrait}
-          />
+          <source media="(min-width:1024px)" srcSet={currentImage.portrait} />
           <img
             src={currentImage.landscape}
             alt={technology.name}
@@ -54,13 +47,8 @@ const TechnologyCard = () => {
           />
         </picture>
       </div>
-
-      {/* Content Section */}
       <section className="flex flex-col md:flex-row items-center gap-10 px-6 md:px-20">
-
-        {/* Number Buttons */}
         <div className="flex md:flex-col gap-4">
-
           {[1, 2, 3].map((num, index) => (
             <div
               key={num}
@@ -75,12 +63,9 @@ const TechnologyCard = () => {
               {num}
             </div>
           ))}
-
         </div>
 
-        {/* Text */}
         <div className="text-center md:text-left max-w-md">
-
           <h3 className="text-gray-400 tracking-widest mb-2">
             THE TERMINOLOGY…
           </h3>
@@ -92,11 +77,8 @@ const TechnologyCard = () => {
           <p className="text-gray-300 leading-relaxed">
             {technology.description}
           </p>
-
         </div>
-
       </section>
-
     </div>
   );
 };

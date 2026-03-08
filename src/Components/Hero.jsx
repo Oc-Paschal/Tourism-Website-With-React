@@ -2,8 +2,9 @@ import React from "react";
 const Hero = () => {
   return (
     <div className="relative">
-      <div className="flex flex-col items-center justify-center text-center md:flex-row md:justify-between md:text-left
-       md:px-20 min-h-screen  justify-between pt-2 md:pt-51 pb-5 md:pb-9 px-20 text-white">
+      <div className="flex flex-col md:flex-row items-center justify-center text-center md:justify-between md:text-left
+       md:px-20 min-h-screen  pt-2 md:pt-51 pb-5 md:pb-9 px-5 text-white">
+
         <div className="flex flex-col gap-5 md:gap-1">
           <div>
             <h3 className="font-mono text-2xl"> SO, YOU WANT TO TRAVEL TO </h3>

@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [react() , tailwindcss(),],
   server:{
     port:3000,
-    allowedHosts: ['insecure-government.outray.app']
+    allowedHosts: ['fat-letter.outray.app']
     
   }
 })
