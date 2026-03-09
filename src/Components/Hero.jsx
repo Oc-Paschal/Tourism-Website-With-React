@@ -1,5 +1,7 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 const Hero = () => {
+  const navigate = useNavigate()
   return (
     <div className="relative ">
       <div
@@ -24,9 +26,9 @@ const Hero = () => {
         </div>
 
         <div>
-          <h3 className=" flex bg-white h-35 w-35 md:h-50 md:w-50 lg:h-35 lg:w-35 rounded-full mt-10 text-center items-center justify-center text-black">
+          <button onClick={()=> navigate("/destinations")} className=" flex bg-white h-35 w-35 md:h-50 md:w-50 lg:h-35 lg:w-35 rounded-full mt-10 text-center items-center justify-center text-black">
             EXPLORE
-          </h3>
+          </button>
         </div>
       </div>
     </div>

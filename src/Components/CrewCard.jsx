@@ -43,7 +43,7 @@ const CrewCard = () => {
           </div>
         </div>
         <div className="flex justify-center">
-          <img src={currentImage} alt={crew.name} className="w-56 md:w-96" />
+          <img src={currentImage} alt={crew.name} className="w-56 md:w-96 lg:w-80" />
         </div>
       </section>
     </div>
